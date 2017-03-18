@@ -128,7 +128,7 @@ static void *MTPlayerViewKVOContext = &MTPlayerViewKVOContext;
         [weakSelf.progressSlider setValue:currentTimeSeconds animated:YES];
         
         int minutes = (int)(currentTimeSeconds / 60);
-        self.currentTimeLabel.text = [NSString stringWithFormat:@"%02d:%02d", minutes, (int)(currentTimeSeconds) - minutes * 60];
+        weakSelf.currentTimeLabel.text = [NSString stringWithFormat:@"%02d:%02d", minutes, (int)(currentTimeSeconds) - minutes * 60];
     }];
 }
 
