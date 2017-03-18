@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740A478E1E7CDD7900218CB2 /* ElephantSeals.mov in Resources */ = {isa = PBXBuildFile; fileRef = 740A478D1E7CDD7900218CB2 /* ElephantSeals.mov */; };
 		740D3D521E7A5EF700D350A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3D511E7A5EF700D350A1 /* main.m */; };
 		740D3D551E7A5EF700D350A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3D541E7A5EF700D350A1 /* AppDelegate.m */; };
 		740D3D5B1E7A5EF700D350A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740D3D591E7A5EF700D350A1 /* Main.storyboard */; };
 		740D3D5D1E7A5EF700D350A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740D3D5C1E7A5EF700D350A1 /* Assets.xcassets */; };
 		740D3D601E7A5EF700D350A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740D3D5E1E7A5EF700D350A1 /* LaunchScreen.storyboard */; };
-		740D3D701E7A60B800D350A1 /* MTPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3D6F1E7A60B800D350A1 /* MTPlayerViewController.m */; };
+		74B6B0BB1E7BC3AB00D1C069 /* MTPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B6B0BA1E7BC3AB00D1C069 /* MTPlayerViewController.m */; };
+		74B6B0C41E7BCF1000D1C069 /* MTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B6B0C31E7BCF1000D1C069 /* MTPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		740A478D1E7CDD7900218CB2 /* ElephantSeals.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = ElephantSeals.mov; sourceTree = "<group>"; };
 		740D3D4D1E7A5EF700D350A1 /* MTPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		740D3D511E7A5EF700D350A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		740D3D531E7A5EF700D350A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -24,8 +27,10 @@
 		740D3D5C1E7A5EF700D350A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		740D3D5F1E7A5EF700D350A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		740D3D611E7A5EF700D350A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		740D3D6E1E7A60B800D350A1 /* MTPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPlayerViewController.h; sourceTree = "<group>"; };
-		740D3D6F1E7A60B800D350A1 /* MTPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPlayerViewController.m; sourceTree = "<group>"; };
+		74B6B0B91E7BC3AB00D1C069 /* MTPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPlayerViewController.h; sourceTree = "<group>"; };
+		74B6B0BA1E7BC3AB00D1C069 /* MTPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPlayerViewController.m; sourceTree = "<group>"; };
+		74B6B0C21E7BCF1000D1C069 /* MTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPlayerView.h; sourceTree = "<group>"; };
+		74B6B0C31E7BCF1000D1C069 /* MTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,12 @@
 		740D3D4F1E7A5EF700D350A1 /* MTPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				74B6B0B81E7BC12E00D1C069 /* MTPlayer */,
 				740D3D531E7A5EF700D350A1 /* AppDelegate.h */,
 				740D3D541E7A5EF700D350A1 /* AppDelegate.m */,
 				740D3D591E7A5EF700D350A1 /* Main.storyboard */,
-				740D3D671E7A606700D350A1 /* Classes */,
+				74B6B0B91E7BC3AB00D1C069 /* MTPlayerViewController.h */,
+				74B6B0BA1E7BC3AB00D1C069 /* MTPlayerViewController.m */,
 				740D3D6C1E7A606700D350A1 /* Resources */,
 				740D3D6D1E7A606700D350A1 /* ThirdParts */,
 				740D3D501E7A5EF700D350A1 /* Supporting Files */,
@@ -78,50 +85,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		740D3D671E7A606700D350A1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				740D3D681E7A606700D350A1 /* Controllers */,
-				740D3D691E7A606700D350A1 /* Models */,
-				740D3D6A1E7A606700D350A1 /* Others */,
-				740D3D6B1E7A606700D350A1 /* Views */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		740D3D681E7A606700D350A1 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				740D3D6E1E7A60B800D350A1 /* MTPlayerViewController.h */,
-				740D3D6F1E7A60B800D350A1 /* MTPlayerViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		740D3D691E7A606700D350A1 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		740D3D6A1E7A606700D350A1 /* Others */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Others;
-			sourceTree = "<group>";
-		};
-		740D3D6B1E7A606700D350A1 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		740D3D6C1E7A606700D350A1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				740A478D1E7CDD7900218CB2 /* ElephantSeals.mov */,
 				740D3D5C1E7A5EF700D350A1 /* Assets.xcassets */,
 				740D3D5E1E7A5EF700D350A1 /* LaunchScreen.storyboard */,
 			);
@@ -133,6 +100,15 @@
 			children = (
 			);
 			path = ThirdParts;
+			sourceTree = "<group>";
+		};
+		74B6B0B81E7BC12E00D1C069 /* MTPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				74B6B0C21E7BCF1000D1C069 /* MTPlayerView.h */,
+				74B6B0C31E7BCF1000D1C069 /* MTPlayerView.m */,
+			);
+			path = MTPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +172,7 @@
 			files = (
 				740D3D601E7A5EF700D350A1 /* LaunchScreen.storyboard in Resources */,
 				740D3D5D1E7A5EF700D350A1 /* Assets.xcassets in Resources */,
+				740A478E1E7CDD7900218CB2 /* ElephantSeals.mov in Resources */,
 				740D3D5B1E7A5EF700D350A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,7 +186,8 @@
 			files = (
 				740D3D551E7A5EF700D350A1 /* AppDelegate.m in Sources */,
 				740D3D521E7A5EF700D350A1 /* main.m in Sources */,
-				740D3D701E7A60B800D350A1 /* MTPlayerViewController.m in Sources */,
+				74B6B0C41E7BCF1000D1C069 /* MTPlayerView.m in Sources */,
+				74B6B0BB1E7BC3AB00D1C069 /* MTPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +345,7 @@
 				740D3D661E7A5EF700D350A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
